@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/UnleadedGasLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Unleaded (87)"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textview_gasprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Enter Unleaded Price"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/MidGradeGasLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Mid-Grade (89)"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textview_midgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Enter Midgrade Price"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/PremiumGasLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Premium (91)"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textview_premium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Enter Premium Price"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/DieselGasLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Diesel"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/textview_diesel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Enter Diesel Price"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/button_gasprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Gas Price" />
+
+
+</LinearLayout>

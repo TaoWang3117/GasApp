@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">GasApp</string>
+    <string name="employPname">Name:</string>
+    <string name="employPFname">First Name:</string>
+    <string name="employPLname">Last Name:</string>
+    <string name="employPphone">Phone Number:</string>
+    <string name="orderW">Order Waiting</string>
+    <string name="update">Update</string>
+    <string name="phone">Phone</string>
+    <string name="profile">Profile</string>
+    <string name="order">Order</string>
+    <string name="orderT">Order Taken</string>
+    <string name="name">Name</string>
+    <string name="gasBut">Gas Price</string>
+    <string name="gas93">Type 93:</string>
+    <string name="gas95">Type 95:</string>
+    <string name="gas97">Type 97:</string>
+    <string name="diesel">Diesel:</string>
+</resources>

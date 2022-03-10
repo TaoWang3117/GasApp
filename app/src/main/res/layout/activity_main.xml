@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/profileBut"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/profile" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:paddingStart="20dp">
+
+
+        <Button
+            android:id="@+id/orderBut"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/order"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:paddingStart="20dp">
+
+
+        <Button
+            android:id="@+id/gasBut"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/gasBut"
+            android:visibility="visible" />
+    </TableRow>
+
+
+</TableLayout>

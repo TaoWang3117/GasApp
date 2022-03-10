@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/activity_gas_price.xml" value="0.34057971014492755" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/activity_login.xml" value="0.35260416666666666" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/activity_main.xml" value="0.35643115942028986" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/activity_order.xml" value="0.34375" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/activity_register.xml" value="0.35643115942028986" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/employee.xml" value="0.35643115942028986" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/layout_dialog_gaspriceset.xml" value="0.34057971014492755" />
+        <entry key="..\:/Downloads/GasApp/GasApp/app/src/main/res/layout/orderlist.xml" value="0.35643115942028986" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

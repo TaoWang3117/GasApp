@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/employPFname"
+        android:textColor="#030303"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/price1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text=""
+        android:textColor="#030303"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/type2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/employPLname"
+        android:textColor="#030303"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/price2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text=""
+        android:textColor="#030303"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/type3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/employPphone"
+        android:textColor="#030303"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/price3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:text=""
+        android:textColor="#030303"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+</LinearLayout>
